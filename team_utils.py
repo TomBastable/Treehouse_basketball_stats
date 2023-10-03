@@ -36,7 +36,7 @@ def player_has_experience(player):
     """
     Returns True if the player has experience, False otherwise.
     """
-    return player[Player.Keys.EXPERIENCE] == Player.HAS_EXPERIENCE
+    return player[Player.Keys.EXPERIENCE] == Player.Keys.HAS_EXPERIENCE
 
 #balance the teams
 def balance_teams(players):
